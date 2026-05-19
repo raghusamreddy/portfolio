@@ -106,7 +106,7 @@ export default function Hero() {
       <div
         aria-hidden="true"
         className="absolute inset-0 pointer-events-none"
-        style={{ background: "radial-gradient(ellipse 70% 60% at 30% 50%, transparent 30%, #000000 100%)" }}
+        style={{ background: "radial-gradient(ellipse 70% 60% at 30% 50%, transparent 30%, var(--color-background) 100%)" }}
       />
 
       {/* Top accent line */}

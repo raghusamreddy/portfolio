@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 }
 
-const themeScript = `(function(){try{var s=localStorage.getItem('theme');var p=s||(window.matchMedia('(prefers-color-scheme:light)').matches?'light':'dark');document.documentElement.setAttribute('data-theme',p)}catch(e){document.documentElement.setAttribute('data-theme','dark')}})();`
+const themeScript = `(function(){try{var s=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',s||'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}})();`
 
 export default function RootLayout({
   children,

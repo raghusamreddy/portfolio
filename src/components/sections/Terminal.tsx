@@ -146,19 +146,19 @@ export default function Terminal() {
           whileInView="visible"
           viewport={viewportOnce}
           variants={fadeUp}
-          className="rounded-2xl overflow-hidden border border-[rgba(255,255,255,0.1)]"
+          className="rounded-2xl overflow-hidden border border-(--color-border-accent)"
           style={{
             boxShadow:
-              "0 0 60px rgba(255,255,255,0.04), 0 0 120px rgba(255,255,255,0.02), 0 25px 50px rgba(0,0,0,0.5)",
+              "0 1px 0 rgba(255,255,255,0.05) inset, 0 25px 50px rgba(0,0,0,0.5)",
           }}
           onClick={focusInput}
         >
           {/* macOS window chrome */}
-          <div className="flex items-center gap-2 px-5 py-3.5 bg-[#1a1a1a] border-b border-[rgba(255,255,255,0.06)]">
+          <div className="flex items-center gap-2 px-5 py-3.5 bg-(--color-surface-2) border-b border-(--color-border)">
             <span className="w-3 h-3 rounded-full bg-[#ff5f57] block" />
             <span className="w-3 h-3 rounded-full bg-[#febc2e] block" />
             <span className="w-3 h-3 rounded-full bg-[#28c840] block" />
-            <span className="ml-auto mr-auto font-mono text-xs text-[#6e6e73] tracking-wide select-none">
+            <span className="ml-auto mr-auto font-mono text-xs text-(--color-text-muted) tracking-wide select-none">
               raghu@portfolio:~$ zsh
             </span>
           </div>
