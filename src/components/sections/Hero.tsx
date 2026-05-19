@@ -157,7 +157,7 @@ export default function Hero() {
             <Button variant="primary" size="lg" href="#timeline">
               Explore Journey
             </Button>
-            <Button variant="ghost" size="lg" href="/Raghu_Samreddy_Resume.pdf">
+            <Button variant="ghost" size="lg" disabled title="CV coming soon" aria-label="Download CV (coming soon)">
               Download CV
             </Button>
           </motion.div>
