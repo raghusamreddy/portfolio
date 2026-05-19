@@ -120,7 +120,7 @@ export default function Contact() {
 
             {/* Resume download */}
             <div className="pt-2">
-              <Button variant="ghost" href="/Raghu_Samreddy_Resume.pdf" size="md">
+              <Button variant="ghost" size="md" disabled title="Resume coming soon" aria-label="Download Resume (coming soon)">
                 Download Resume
               </Button>
             </div>
