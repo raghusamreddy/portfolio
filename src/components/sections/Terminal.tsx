@@ -233,10 +233,10 @@ export default function Terminal() {
 
         {/* Hint bar */}
         <p className="mt-4 text-center font-mono text-xs text-[var(--color-text-muted)]">
-          Try: <code className="text-[var(--color-text-secondary)]">docker ps</code> ·{" "}
-          <code className="text-[var(--color-text-secondary)]">kubectl get pods</code> ·{" "}
-          <code className="text-[var(--color-text-secondary)]">neofetch</code> ·{" "}
-          <code className="text-[var(--color-text-secondary)]">terraform apply</code> · Tab to autocomplete
+          Try: <code className="text-[var(--color-text-secondary)]">whoami</code> ·{" "}
+          <code className="text-[var(--color-text-secondary)]">experience</code> ·{" "}
+          <code className="text-[var(--color-text-secondary)]">projects</code> ·{" "}
+          <code className="text-[var(--color-text-secondary)]">skills</code> · Tab to autocomplete
         </p>
       </div>
     </section>
