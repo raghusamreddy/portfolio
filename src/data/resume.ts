@@ -60,7 +60,7 @@ export const personal = {
   email: "samraghuops@gmail.com",
   linkedin: "https://linkedin.com/in/raghusamreddy",
   github: "https://github.com/raghusamreddy",
-  location: "Montreal, Canada",
+  location: "GTA, Canada",
   titles: [
     "Senior DevOps Engineer",
     "Infrastructure Engineer",
@@ -88,7 +88,7 @@ export const experience: Experience[] = [
     company: "SAP Labs",
     role: "Senior DevOps & Site Reliability Engineer",
     period: "Aug 2019 – Present",
-    location: "Montreal, Canada",
+    location: "GTA, Canada",
     current: true,
     achievements: [
       "Engineered unified observability platform using Dynatrace, Splunk, ELK, Prometheus & Grafana — reducing MTTD by 50% and MTTR by 40%",
@@ -365,9 +365,9 @@ export const terminalCommands: Record<string, string> = {
   whoami: `Raghu Samreddy — Senior DevOps & SRE Engineer
 ──────────────────────────────────────────
 12+ years building production infrastructure at scale.
-Currently at SAP Labs, Montreal. Led 6-person platform team.
+Currently at SAP Labs. Led 6-person platform team.
 Expert in Kubernetes, Terraform, cloud automation, and observability.
-Available for opportunities · Montreal, Canada`,
+Available for opportunities · GTA, Canada`,
 
   experience: `Career Timeline:
 ──────────────────────────────────────────
@@ -449,7 +449,7 @@ Fairleigh Dickinson University`,
 Email      samraghuops@gmail.com
 LinkedIn   linkedin.com/in/raghusamreddy
 GitHub     github.com/raghusamreddy
-Location   Montreal, Canada
+Location   GTA, Canada
 
 Or scroll down to use the contact form ↓`,
 }
