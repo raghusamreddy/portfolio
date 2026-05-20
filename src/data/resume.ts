@@ -324,7 +324,8 @@ export const certifications: Certification[] = [
   {
     name: "Microsoft Azure Administrator",
     issuer: "Microsoft",
-    status: "in-progress",
+    status: "active",
+    year: 2026,
     badgeColor: "#0078D4",
   },
   {
@@ -433,8 +434,8 @@ Secrets         HashiCorp Vault + Azure Key Vault`,
   certifications: `Certifications & Credentials:
 ──────────────────────────────────────────
 [active]       AWS Certified Solutions Architect          2022
+[active]       Microsoft Azure Administrator              2026
 [in-progress]  Certified Kubernetes Administrator (CKA)
-[in-progress]  Microsoft Azure Administrator
 [exploring]    Certified Kubernetes Security Specialist (CKS)
 [exploring]    HashiCorp Terraform Associate
 [exploring]    Google Cloud Professional DevOps Engineer`,
